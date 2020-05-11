@@ -1,0 +1,9 @@
+.bg-pink{
+	background-color:#ff6cba!important;
+}
+.navbar-pink .navbar-brand{
+	 color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link{
+	 color:rgba(255, 255, 255, 0.75);
+}

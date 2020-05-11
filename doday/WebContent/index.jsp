@@ -4,7 +4,6 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
 	<!-- 스크립트 -->
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
@@ -16,6 +15,7 @@
 	
 </head>
 <body>
+	<jsp:include page="include/topBar.jsp" flush="true"/>
 	<div class="container">
 		<div class="row">
 			<div class="offset-md-2 col-md-10">환영</div>
