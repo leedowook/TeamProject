@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
 	<!-- topBar의 css -->
-	<link rel="stylesheet" type="text/css" href="./include/css/topBar.css">
+	<link rel="stylesheet" type="text/css" href="/include/css/topBar.css">
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-pink navbar-expand-sm">
