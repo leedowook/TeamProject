@@ -20,7 +20,7 @@
 	<!-- 스타일 -->
 		<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
-		<link href="/css/style.css?after" rel="stylesheet" type="text/css">
+		<link href="/css/style_boardWrite.css?after" rel="stylesheet" type="text/css">
 	
 	<title>오늘뭐해</title>
 	
