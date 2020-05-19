@@ -121,8 +121,8 @@
 		<div class="row">
 			<div id="modal" class="modal store">
 				<div class="modal_content">
-					<input id="storeValue" placeholder="가게이름을 검색해주세요.">
-					<input type="button" value="검색">
+					<input id="storeValue" class="storeValue" placeholder="가게이름을 검색해주세요.">
+					<input type="button" class="btn btn-primary storeSearchBtn" value="검색">
 					<div id=storeList class="List">
 						<div class="resultList">검색결과 없음</div>	
 					</div>

@@ -82,6 +82,7 @@
 
 .commentBoard{
 	margin-top:20px;
+	text-align:center;
 }
 .comment_textArea{
 	width: 600px;
@@ -93,13 +94,17 @@
     bottom: 2%;
     margin-bottom: 4px;
     margin-left: 2px;
+}
+.comment_list{
+	margin-top: 10px;
 }	
 
 .commentBoard_table{
 	width:800px;
 	height:100px;
 	border-top:solid 2px #ced4da;
-	text-align: left;;
+	text-align: left;
+	margin: auto;
 	
 }
 
@@ -114,9 +119,6 @@
 	padding-top: 5px;
 }
 
-.comment_list{
-	margin-left: 12%;
-}
 
 .commentLastTd{
     font-size: 10px;

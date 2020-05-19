@@ -175,6 +175,15 @@ iframe{
     margin-top: 8px;	
 }
 
+.storeValue{
+	width: 240px;
+    text-align: left;
+    margin-bottom: 10px;
+    height: 38px;
+}
+.storeSearchBtn{
+	margin-bottom:6px;
+}
 
 @media all and (min-device-width:380px) and (max-device-width:470px){
 	div#smart_editor2{

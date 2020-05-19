@@ -102,13 +102,13 @@
 		
 		<!-- 댓글관련 -->
 		<div class="row">
-			<div class="offset-sm-2 col-sm-8 commentBoard comment">
+			<div class="offset-md-2 col-md-8 commentBoard comment">
 				<textarea class="comment_textArea" placeholder="댓글을 입력해주세요."></textarea>
 				<input type="button" class="commentBtn btn btn-primary" value="등록">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6 comment_list comment">
+			<div class="offset-md-2 col-md-8 comment_list comment">
 				<table class="commentBoard_table">
 					<tr>
 						<th colspan=2>작성자</th>
