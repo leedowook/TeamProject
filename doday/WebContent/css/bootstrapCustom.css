@@ -1,6 +1,6 @@
 /*자주 쓰일것같은 부트스트랩 클래스관련 변경or 추가사항 */
 .btn-primary:focus,.btn-primary.focus{
-	color: #212529;
+	color: white;
     background-color: #ff8080;
     border-color: #ff8080;
 }
