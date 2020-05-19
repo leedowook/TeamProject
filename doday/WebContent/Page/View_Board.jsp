@@ -57,7 +57,7 @@
 	
 </head>
 <body>
-	<jsp:include page="/include/topBar.jsp" flush="true"/>
+	<jsp:include page="../include/topBar.jsp" flush="true"/>
 	<div class="co ntainer">
 		<div class="row">
 			<div class="blank"></div>
