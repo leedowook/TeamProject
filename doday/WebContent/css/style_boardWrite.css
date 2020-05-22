@@ -164,7 +164,6 @@
     
 }
 iframe{
-	margin-left:150px;
 	margin-top:20px;
 	margin-bottom:20px;
 }
@@ -185,11 +184,15 @@ iframe{
 	margin-bottom:6px;
 }
 
-@media all and (min-device-width:380px) and (max-device-width:470px){
-	div#smart_editor2{
-		width:350px!important;
-	}
+.edit_div{
+	 margin-left: 5%;
 }
+
+
+.actionBtn_div{
+	padding-right:0px!important;
+}
+
 
 
 

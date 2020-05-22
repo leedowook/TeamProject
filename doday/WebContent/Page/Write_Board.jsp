@@ -26,6 +26,11 @@
 	
 	<script>
 	$(document).ready(function(){
+		var iframe = $(".edit_div").children("iframe");
+		console.log(iframe);
+		iframe.addClass("col-10");
+		iframe.addClass("col-md-10");	
+		
 		$("#btnStoreName").click(function(){
 			$(".modal.store").css("display","block");
 		})
@@ -89,31 +94,31 @@
 		<div class="row">
 			<div class="title_div col-md-12">
 				<div class="form-group row">
-					<label class="input_label col-form-label form-control-label pannelText col-sm-2" for="title">제목 </label> 
-					<input id="title" class="form-control input col-sm-8" Name="title" type="text">
+					<label class="input_label col-form-label form-control-label pannelText col-2 col-md-2" for="title">제목 </label> 
+					<input id="title" class="form-control input col-8 col-md-8" Name="title" type="text">
 				</div>
 			</div>
 			<div class="title_div col-md-12">
 				<div class="form-group row">
-					<label class="input_label col-form-label form-control-label pannelText col-sm-2" for="StoreName">가게이름 </label> 
-					<input class="form-control input col-sm-6" type="text" id="StoreName" Name="StoreName">
-					<input type="button" class="col-sm-2 btn btn-primary tempBtn ml-2" id="btnStoreName" value="search">
+					<label class="input_label col-form-label form-control-label pannelText col-2 col-md-2" for="StoreName">가게이름 </label> 
+					<input class="form-control input col-6 col-md-6" type="text" id="StoreName" Name="StoreName">
+					<input type="button" class="col-2 col-md-2 btn btn-primary tempBtn ml-2" id="btnStoreName" value="search">
 					
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<span id="themaView" class="select thema mr-2 offset-sm-1">미정</span>
+			<span id="themaView" class="select thema mr-2 offset-1 offset-md-1">미정</span>
 			<input type="button" id="themaBtn" class="btn btn-primary mr-2 tempBtn thema" value="테마">
 			<span id="regionView" class="form-control select region">미정</span>
 			<input type="button" id="regionBtn" class="btn btn-primary mr-2 tempBtn region" value="지역">
 		</div>
-		<div class="row">
-			<textarea name="boardContent" id="boardContent" rows="12" cols="100" ></textarea><br>
+		<div class="row edit_div">
+			<textarea name="boardContent" class="col-12 col-md-12" id="boardContent" rows="12" cols="100" ></textarea><br>
 			
-			<div class="col-sm-3 offset-sm-8">
-				<input type="button" id="saveBtn" class="btn btn-primary mr-2 tempBtn" value="작성완료" style="float:right">
-				<input type="button" id="cancelBtn" class="btn btn-primary mr-2 tempBtn" value="취소" style="float:right">
+			<div class="col-md-6 offset-md-6 actionBtn_div">
+				<input type="button" id="saveBtn" class="col-3 col-md-3 btn btn-primary tempBtn" value="작성완료" style="float:right">
+				<input type="button" id="cancelBtn" class="col-3 col-md-3 btn btn-primary mr-2 tempBtn" value="취소" style="float:right">
 			</div>	
 		</div>
 		
