@@ -17,15 +17,11 @@
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="list">검색</a>
+					<a class="nav-link" href="/Page/List_Board.jsp">리스트</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="list">이벤트</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="list">글쓰기</a>
-				</li>
-				
+				</li>				
 			</ul>
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown">

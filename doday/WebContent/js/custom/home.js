@@ -11,6 +11,15 @@ $(document).ready(function() {
 //배너의 추천란 클릭시
 function titleOnclick(){
 	$(".card-title").on("click",function(){
-	console.log("titleClick")
+		console.log("titleClick")
+		
+	});
+}
+
+function simpleSearchChangeDisplay(){
+	$(".card-title").on("click",function(){
+		console.log("searchClick");
+		$("#searchPlace").hasClass("col-" +
+				"");
 	});
 }
