@@ -10,7 +10,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-pink navbar-expand-sm">
-		<a class="navbar-brand" href="#">오늘뭐해</a>
+		<a class="navbar-brand" href="/">오늘뭐해</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -24,7 +24,7 @@
 				</li>				
 			</ul>
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown">
+				<li class="nav-item dropdown dropdown-menu-right">
 					<a class="nav-link dropdown-toggle" href="#" id="navbargrop" data-toggle="dropdown">접속</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">로그인</a>
