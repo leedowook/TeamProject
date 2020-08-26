@@ -24,9 +24,9 @@
 				</li>				
 			</ul>
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown dropdown-menu-right">
+				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbargrop" data-toggle="dropdown">접속</a>
-					<div class="dropdown-menu">
+					<div class="dropdown-menu  dropdown-menu-right">
 						<a class="dropdown-item" href="#">로그인</a>
 						<a class="dropdown-item" href="#">회원가입</a>
 					</div>
