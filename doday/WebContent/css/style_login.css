@@ -1,0 +1,46 @@
+.blank{
+	height: 100px;
+	
+	
+}
+.textArea{
+	height: 120px;
+	width:100%;
+}
+
+.title{
+	text-align: center;
+}
+
+.loginInfo{
+	margin-bottom: 10px;
+	
+}
+
+.findInfo li{
+	float:left;
+	margin-left:10px;
+	list-style:none;
+}
+
+.findInfo li::before{
+	content:"|";
+	padding-right:10px;
+}
+
+.findInfo li:first-child::before{
+	content:none;
+}
+
+.findInfo a{
+	color: gray !important;
+}
+
+#loginBtn{
+	margin-top: 10px;
+}
+
+.btn.btn-primary{
+	color:white;
+	font-weight: bold;
+}
