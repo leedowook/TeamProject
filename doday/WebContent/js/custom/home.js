@@ -5,8 +5,14 @@ $(function() {
 //모두 로딩되었을때
 $(document).ready(function() {
 	titleOnclick();
+	/*$.getJSON("http://api.ipify.org?format=jsonp&callback=?",
+			function(json){
+		document.write(json.ip);
+	});*/
+	
 });
 //onclick 액션
+
 
 //배너의 추천란 클릭시
 function titleOnclick(){
@@ -23,3 +29,10 @@ function simpleSearchChangeDisplay(){
 				"");
 	});
 }
+function getIP(json){
+	document.write(json.ip)
+}
+	
+
+
+

@@ -5,6 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
+	<!-- 메인화면의 js -->
+	<script src="/include/js/topbar.js"></script>
 	<!-- topBar의 css -->
 	<link rel="stylesheet" type="text/css" href="/include/css/topBar.css">
 </head>
@@ -24,12 +26,8 @@
 				</li>				
 			</ul>
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbargrop" data-toggle="dropdown">접속</a>
-					<div class="dropdown-menu  dropdown-menu-right">
-						<a class="dropdown-item" href="#">로그인</a>
-						<a class="dropdown-item" href="#">회원가입</a>
-					</div>
+				<li class="nav-item dropdown userLog">
+					<a class="nav-link dropdown-toggle" href="#" id="navbargrop" data-toggle="dropdown">로그인</a>
 				</li>
 			</ul>
 		</div>
