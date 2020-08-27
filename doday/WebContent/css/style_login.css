@@ -1,3 +1,10 @@
+:root{
+	--primary-color : #ff8080;
+	--sub-color : #ffc1c1;
+	
+}
+
+
 .blank{
 	height: 100px;
 	
@@ -10,6 +17,7 @@
 
 .title{
 	text-align: center;
+	color : var(--primary-color);
 }
 
 .loginInfo{
@@ -43,4 +51,37 @@
 .btn.btn-primary{
 	color:white;
 	font-weight: bold;
+}
+
+.Item{
+	color : var(--primary-color);
+	font-size: 22px;
+	font-weight: bold;
+	margin-right: 50px;
+	
+}
+
+.constraint{
+	margin-left: 20px;
+    margin-top: 6px;
+}
+
+.fail{
+	display:none;
+	
+}
+
+.success{
+	display:none;
+}
+
+.registerBtn{
+	margin-top: 50px;
+}
+
+
+.necessary::after{
+	content:"*";
+	padding-left	:10px;
+	color : red;
 }
