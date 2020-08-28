@@ -6,8 +6,10 @@
 	<meta charset="UTF-8">
 	<!-- 스크립트 -->
 	<!-- jQuery -->
+	<!-- 스크립트 -->
+	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
-	
+	<script src="/js/custom/register.js"></script>
 	
 	<!-- 부트스트랩 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,97 +19,7 @@
 	<link href="/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
 	<link href="/css/style_login.css" rel="stylesheet" type="text/css">
 	
-	<script>
-		$(document).ready(function(){
-			var idSuccess = false;
-			var passwordSuccess = false;
-			var nameSuccess = false;
-			var check= null;
-
-			$("#passwordCheck").blur(function(){
-				check = checkPassword();
-			})
-			$("#infoPassword").blur(function(){
-				check = checkPassword();
-			});
-
-			$("#registerBtn").click(function(){
-				register(check);
-
-			});
-		})
-		
-		function checkPassword(){
-			var check = false;
-			var password = $("#infoPassword").val();
-			var checkPassword = $("#passwordCheck").val();
-
-			if(password.trim() != ""){
-				if(password == checkPassword){
-					check = true;
-					$(".fail").css("display","none");
-					$(".success").css("display","block");
-				}else if(password != checkPassword){
-					check = false;
-					$(".fail").css("display","block");
-					$(".success").css("display","none");
-				}
-			}else{
-				check = false;
-				$(".fail").css("display","none");
-				$(".success").css("display","none");
-			}
-
-			return check;
-		}
-
-		function register(check){
-
-			var idSuccess = false;
-			var passwordSuccess = false;
-			var nameSuccess = false;
-
-
-			var id = $("#infoId").val();
-			var password = $("#infoPassword").val();
-			var name = $("#infoName").val();
-
-			if(id.trim() != ""){
-				idSuccess = true;
-			}
-
-			if(password.trim() != ""){
-				passwordSuccess = true;
-			}
-
-			if(name.trim() != ""){
-				nameSuccess = true;
-			}
-
-			if(check != true){
-				alert("비밀번호가 서로 일치하지 않습니다.")
-			}
-			else if(idSuccess != true){
-				alert("아이디를 입력해주세요")
-			}
-			else if(passwordSuccess != true){
-				alert("비밀번호를 입력해주세요")
-			}
-			else if(nameSuccess != true){
-				alert("이름을 입력해주세요")
-			}
-			else if(nameSuccess == true && idSuccess == true && passwordSuccess == true){
-				sessionStorage.setItem("id", id);
-				sessionStorage.setItem("password", password);
-				sessionStorage.setItem("name", name);
-			}
-
-		
-
-		}
-		
 	
-	</script>
 	
 	
 	<title>오늘뭐해</title>
@@ -122,6 +34,13 @@
 				<h1 class="text-truncate title"> 회원가입 </h1>
 			</div>
 			<div class = "col-md-12">
+				<div class="row">
+					<div class="offset-md-1 col-md-4">
+						<label class="Item"><input type="radio" name ="degree" class="radio" value="0">일반</label>
+						<label class="Item"><input type="radio" name ="degree" class="radio" value="1">기업가</label>
+					</div>
+				</div>
+				
 				<div class="form-group row">
 					<span class="offset-md-1 col-md-2 Item necessary ">아이디</span>
 					<input id="infoId" class="col-md-3 form-control">

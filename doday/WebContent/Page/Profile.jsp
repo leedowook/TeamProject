@@ -9,7 +9,8 @@
 	<!-- 스크립트 -->
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
-
+	<script src="/js/custom/login.js"></script>
+	
 	<!-- smartEdit -->
 	<script type="text/javascript" src="../se2/js/HuskyEZCreator.js" charset="utf-8"></script>
 	
@@ -23,38 +24,8 @@
 		<link href="/css/style_profile.css?after" rel="stylesheet" type="text/css">
 	
 	<title>오늘뭐해</title>
-	<script>
-	$(document).ready(function(){
 
-		changeMode();
-	})
-		
 	
-	function changeMode(){
-		var a = $(".test1").val().trim();
-		console.log(a);
-		if(a == 1){
-			$(".user").css("display","inline-block");
-			$(".manager").css("display","none");
-			$(".enterprise").css("display","none");
-			$("#titleAuth").text("일반");
-		}
-		else if(a == 2){
-			$(".user").css("display","none");
-			$(".manager").css("display","none");
-			$(".enterprise").css("display","inline-block");
-			$("#titleAuth").text("기업가");
-		}
-		else if(a == 3){
-			$(".user").css("display","none");
-			$(".manager").css("display","inline-block");
-			$(".enterprise").css("display","none");
-			$("#titleAuth").text("관리자");
-		}
-
-	}
-	
-	</script>
 	
 
 </head>
@@ -64,10 +35,7 @@
 	<jsp:include page="../include/topBar.jsp" flush="true"/>
 	<div class="container">
 		<div class="row">
-			<div class="blank">
-				<input class="test1" placeholder="테스트용">
-				<button class="testBtn" onclick="changeMode()">검색</button>
-			</div>
+			<div class="blank"></div>
 		</div>
 		<div class="row">
 			<div class="col-12 col-md-12 menu_line">
@@ -80,11 +48,11 @@
 						</div>
 						<div class="offset-1 col-6 col-md-6 nickName">
 							<div class="infoKey title_div mr-2">이름</div>
-							<div id="titleName" class="content_div profile_div infoKey">닉네임</div>
+							<div id="userName" class="content_div profile_div infoKey"></div>
 						</div>
 						<div class="offset-1 col-6 col-md-6 nickName">
 							<div class="infoKey title_div  mr-2">등급</div>
-							<div id="titleAuth" class="content_div infoKey">일반</div>
+							<div id="userAuth" class="content_div infoKey">일반</div>
 						</div>
 					</div>
 					<div class="btn_div">
@@ -144,7 +112,7 @@
 					<div class="col-md-12 col-12 menuTitle managerTitle">member management</div>
 					
 					<div class="btn_div">
-						<input class="btn btn-primary" type="button" value="더보기">
+						<input id="mamageBtn" class="btn btn-primary" type="button" value="더보기">
 					</div>
 				</div>
 				

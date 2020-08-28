@@ -5,7 +5,7 @@ $(document).ready(function() {
 //
 function titleOnclick(){
 	$("a#login.login").on("click",function(){
-		alert("대강 로그인화면")
+		location.href="/Page/Login.jsp"
 	});
 }
 
@@ -22,12 +22,22 @@ function loginCheck(){
 function loginMenu(id){
 	var loginText = '<a class="nav-link dropdown-toggle" href="#" id="navbargrop" data-toggle="dropdown">'+id+'</a>'
 	var infoMenu ='<div class="dropdown-menu  dropdown-menu-right">'
-	+	'<a class="dropdown-item" href="#">내정보</a>'
+	+	'<a id="profile" class="dropdown-item" href="#">내정보</a>'
 	+	'<a class="dropdown-item" href="#">즐겨찾기</a>'
+	+	'<a id="logoutBtn" class="dropdown-item" href="#">로그아웃</a>'
 	+'</div>'
 	$(".userLog").empty();
 	$(".userLog").append(loginText);
 	$(".userLog").append(infoMenu);
+	
+	$("#logoutBtn").on("click",function(){
+		logout();
+		
+	});
+	
+	$("#profile").on("click",function(){
+		profile();
+	})
 }
 //로그인 하지않은상태일떄
 function unloginMenu(){
@@ -37,5 +47,12 @@ function unloginMenu(){
 }
 //로그아웃햇을때
 function logout(){
-	sessionStorage.removeItem("a")
+	sessionStorage.removeItem("id")
+	location.href = "/index.jsp";
+	unloginMenu();
+	titleOnclick();
+}
+
+function profile(){
+	location.href = "/Page/Profile.jsp";
 }

@@ -7,7 +7,7 @@
 	<!-- 스크립트 -->
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
-	
+	<script src="/js/custom/login.js"></script>
 	
 	<!-- 부트스트랩 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -31,8 +31,8 @@
 		</div>
 		<div class="row">
 			<form class="col-md-12">
-				<input class="offset-md-4 col-md-4 form-control loginInfo" placeholder="ID">
-				<input class="offset-md-4 col-md-4 form-control loginInfo" placeholder="PASSWORD" type="password">
+				<input id="id" class="offset-md-4 col-md-4 form-control loginInfo" placeholder="ID">
+				<input id="password" class="offset-md-4 col-md-4 form-control loginInfo" placeholder="PASSWORD" type="password">
 			</form>
 			<div class="offset-md-5 col-md-4">
 				<ul class="findInfo">
@@ -42,7 +42,7 @@
 			</div>
 			<div class="col-md-12">
 				<input type="button" id="loginBtn" class="offset-md-4 col-md-4 btn btn-primary" value="로그인">
-				<input type="button" id="loginBtn" class="offset-md-4 col-md-4 btn btn-primary" value="회원가입">
+				<input type="button" id="registerBtn" class="offset-md-4 col-md-4 btn btn-primary" value="회원가입">
 			</div>
 			
 			

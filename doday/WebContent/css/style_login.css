@@ -48,6 +48,10 @@
 	margin-top: 10px;
 }
 
+#registerBtn{
+	margin-top: 10px;
+}
+
 .btn.btn-primary{
 	color:white;
 	font-weight: bold;
@@ -85,3 +89,9 @@
 	padding-left	:10px;
 	color : red;
 }
+
+.radio{
+	margin-right : 10px;
+	
+}
+
