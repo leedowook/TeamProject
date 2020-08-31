@@ -1,11 +1,27 @@
 $(document).ready(function() {
 	moveRegister();
-	login();
+	loginBtn();
 	authority()
 	management()
-	passiveRegister();
+	enterKey();
 	
 });
+
+function enterKey(){
+	$("#password").keyup(function(key){
+		if(key.keyCode == 13){
+			login();
+			
+		}
+		
+	})
+}
+
+function loginBtn(){
+	$("#loginBtn").on("click",function(){
+		login();
+	});
+}
 
 
 
@@ -38,25 +54,21 @@ function moveRegister(){
 
 function login(){
 	
-	$("#loginBtn").on("click",function(){
-		if($("#id").val() == sessionStorage.getItem("userId")){
-			
-			if($("#password").val() == sessionStorage.getItem("userPassword")){
-				var id = sessionStorage.getItem("userId");
-				var password = sessionStorage.getItem("userPassword");
-				sessionStorage.setItem("id", id);
-				sessionStorage.setItem("password", password);
-				location.href = "/index.jsp"
-			}else{
-				alert("비밀번호가 일치하지 않습니다.");
-			}	
-		}
-		else{
-			alert("아이디와 비밀번호가 일치하지 않습니다.");
-			
-		}
-	});	
-	 
+	if($("#id").val() == sessionStorage.getItem("userId")){
+		if($("#password").val() == sessionStorage.getItem("userPassword")){
+			var id = sessionStorage.getItem("userId");
+			var password = sessionStorage.getItem("userPassword");
+			sessionStorage.setItem("id", id);
+			sessionStorage.setItem("password", password);
+			location.href = "/index.jsp"
+		}else{
+			alert("비밀번호가 일치하지 않습니다.");
+		}	
+	}
+	else{
+		alert("아이디와 비밀번호가 일치하지 않습니다.");
+		
+	} 
 }
 
 

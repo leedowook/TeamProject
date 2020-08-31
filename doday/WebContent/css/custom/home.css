@@ -49,3 +49,15 @@ div.mainBody{
 	margin-top:-24.5px;
 }
 
+#simpleSearchText{
+	float:left;
+	width:96%!important;
+}
+
+.serachBtn{
+	border: 0;
+	width: 40px;
+    height: 40px;
+    background: url(/Image/search.png) no-repeat;
+    background-size: cover;
+}

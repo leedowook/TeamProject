@@ -29,8 +29,9 @@
 						<div class="col-1 align-self-center align-item-center"> 
 					    	검색창
 					    </div>
-					    <div class="col-11">
+					    <div class="col-12">
 					    	<input type="text" class="form-control" id="simpleSearchText" aria-describedby="" placeholder="검색어를 입력하세요">
+					    	<button type="submit" class="serachBtn"></button>
 					    </div>
   					</div> 
 				</div>
@@ -74,6 +75,7 @@
 							            <div class="row no-gutters card-content">
 							              <div class="col-4 col-md-3 slide-card-img">
 							                <img src="https://researchheresy.com/files/attach/images/352/251/001/6c1191aba6f77253d1553809e4866007.PNG" alt="" class="card-img full-img" />
+							               
 							              </div>
 							              <div class="col-8 col-md-9 slide-card-text">
 							              	<div class="card-body">

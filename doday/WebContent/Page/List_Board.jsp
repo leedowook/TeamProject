@@ -57,7 +57,7 @@
 				}
 
 			});
-
+			selectReview();
 			
 		});
 
@@ -76,7 +76,14 @@
 			$(".modal.thema").css("display","none");
 		}
 			
+		function selectReview(){
+			$(".reviewContent1_div").on("click",function(){
+				location.href = "/Page/View_Board.jsp";
+			});
+			
+		}
 
+		
 	</script>
 	
 	
@@ -104,7 +111,7 @@
 					<div class="storeName_div">
 						<div class="storeName">신가</div>
 					</div>
-					<div class="reviewContent1_div">
+					<div class="reviewContent1_div reviewDiv">
 						<div class="img_div">
 							<img class="reviewImg" src="../Image/reviewphoto.PNG">
 						</div>
@@ -119,7 +126,7 @@
 							</dd>
 						</dl>
 					</div>
-					<div class="reviewContent2_div wait_div">
+					<div class="reviewContent2_div wait_div reviewDiv">
 						<div class="img_div">
 							<img class="reviewImg" src="../Image/reviewphoto.PNG">
 						</div>
