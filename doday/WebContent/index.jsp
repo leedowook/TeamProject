@@ -75,7 +75,6 @@
 							            <div class="row no-gutters card-content">
 							              <div class="col-4 col-md-3 slide-card-img">
 							                <img src="https://researchheresy.com/files/attach/images/352/251/001/6c1191aba6f77253d1553809e4866007.PNG" alt="" class="card-img full-img" />
-							               
 							              </div>
 							              <div class="col-8 col-md-9 slide-card-text">
 							              	<div class="card-body">

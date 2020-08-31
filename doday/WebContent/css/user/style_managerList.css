@@ -1,0 +1,25 @@
+@charset "UTF-8";
+:root{
+	--primary-color : #ff8080;
+	--sub-color : #ffc1c1;
+	--solid-color: #ced4da;
+}
+
+.blank{
+	height:50px;
+}
+
+.thead{
+ 	background-color:var(--sub-color);
+}
+.headth{
+	border-right: 1px solid #dee2e;
+}
+
+.table{
+	text-align: center;
+}
+
+.tbody{
+	color: darkgray;
+}

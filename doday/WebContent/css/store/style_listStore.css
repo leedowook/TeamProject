@@ -1,0 +1,117 @@
+@charset "UTF-8";
+:root{
+	--primary-color : #ff8080;
+	--sub-color : #ffc1c1;
+	--solid-color: #ced4da;
+	
+}
+
+.blank{
+	height:50px;
+}
+
+.view_div{
+	display: inline-block;
+	border: solid 2px var(--primary-color);
+	color : var(--primary-color);
+	border-radius: 0.5rem;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.searchValue{
+	margin-bottom:10px;
+}
+
+.searchContent{
+	border : solid 2px var(--solid-color);
+}
+
+.storeReview{
+	border : solid 2px var(--solid-color);
+
+}
+
+.reviewContent_div{
+	margin-bottom:5px;
+	border : solid 1px var(--solid-color);
+}
+
+.review_div{
+	margin-top:15px;
+
+}
+
+.reviewImg{
+	width:100%;
+	height:100%;
+	margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.review_div{
+	border-bottom:solid 1px var(--solid-color);
+}
+
+.img_div{
+	margin-bottom: 23px;
+}
+
+
+
+.reactContent{
+	
+    margin-top: 7%;
+    
+}
+
+.heart_icon{
+	color: red;
+	font-size: 25px;
+}
+
+.like_count{
+	font-size: 20px;
+}
+
+.commentImage{
+	height: 22px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.comment_count{
+	font-size:20px;
+}
+
+.page_div{
+	position: absolute;
+    bottom: 2%;
+    left: 50%;
+}
+
+body{
+	margin:0;
+	height:100%;
+}
+html{
+	height:100%;
+}
+
+
+.container {
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 19px; /* footer height */
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align : center;
+}
+
+
+
+
