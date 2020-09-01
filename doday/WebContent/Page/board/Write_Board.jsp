@@ -31,7 +31,7 @@
 <body>
 
 
-	<jsp:include page="../include/topBar.jsp" flush="true"/>
+	<jsp:include page="/include/topBar.jsp" flush="true"/>
 	<div class="container">
 		<div class="row">
 			<div class="blank"></div>

@@ -5,7 +5,7 @@ $(document).ready(function() {
 //
 function titleOnclick(){
 	$("a#login.login").on("click",function(){
-		location.href="/Page/Login.jsp"
+		location.href="/Page/user/Login.jsp"
 	});
 }
 
@@ -54,5 +54,5 @@ function logout(){
 }
 
 function profile(){
-	location.href = "/Page/Profile.jsp";
+	location.href = "/Page/user/Profile.jsp";
 }

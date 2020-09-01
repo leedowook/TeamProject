@@ -7,7 +7,7 @@
 	<!-- 스크립트 -->
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
-	<script>
+	<script src=/js/user/management.js>
 	</script>
 	
 	<!-- 스타일 -->
@@ -22,12 +22,11 @@
 	
 </head>
 <body>
-	<jsp:include page="../include/topBar.jsp" flush="true"/>
+	<jsp:include page="/include/topBar.jsp" flush="true"/>
 	<div class="mainBody">
 		<div class="container">
 			<div class="row">
 				<div class="blank"></div>
-				<a href="User_Profile.jsp">aaaaa</a>
 			</div>
 			<div class="row">
 				<div class="col-md-12">

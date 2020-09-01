@@ -27,7 +27,7 @@ function loginBtn(){
 
 function moveRegister(){
 	$("#registerBtn").on("click",function(){
-		location.href = "/Page/Register.jsp";
+		location.href = "/Page/user/Register.jsp";
 		
 		$("#passwordCheck").blur(function(){
 			passwordCheck = checkPassword();

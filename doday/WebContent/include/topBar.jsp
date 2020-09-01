@@ -19,15 +19,15 @@
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="/Page/List_Board.jsp">리스트</a>
+					<a class="nav-link" href="/Page/board/List_Board.jsp">리스트</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="list">이벤트</a>
+					<a class="nav-link" href="/Page/event/viewEventBoard.jsp">이벤트</a>
 				</li>				
 			</ul>
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown userLog">
-					<a class="nav-link dropdown-toggle" href="#" id="navbargrop" data-toggle="dropdown">로그인</a>
+					<a class="nav-link dropdown-toggle" id="navbargrop" data-toggle="dropdown" style="cursor:pointer">로그인</a>
 				</li>
 			</ul>
 		</div>

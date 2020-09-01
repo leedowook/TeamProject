@@ -95,6 +95,7 @@ function register(passwordCheck){
 			alert("역할을 체크해주세요");
 		}
 		else if(nameSuccess == true && idSuccess == true && passwordSuccess == true){
+			console.log("aaa");
 			allSuccess = true;
 			sessionStorage.setItem("userId", id);
 			sessionStorage.setItem("userPassword", password);

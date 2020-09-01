@@ -9,7 +9,7 @@ $(document).ready(function() {
 			function(json){
 		document.write(json.ip);
 	});*/
-	
+	serach();
 });
 //onclick 액션
 
@@ -34,5 +34,15 @@ function getIP(json){
 }
 	
 
+function serach(){
+	$("#simpleSearchText").keyup(function(key){
+		if(key.keyCode == 13){
+			alert("앙~검색띠");
+		}
+	});	
+	$(".serachBtn").on("click",function(){
+		alert("앙~검색띠");
+	});
+}
 
 

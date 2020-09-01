@@ -23,7 +23,7 @@
 	
 </head>
 <body>
-	<jsp:include page="../include/topBar.jsp" flush="true"/>
+	<jsp:include page="/include/topBar.jsp" flush="true"/>
 	<div class="container">
 		<div class="blank"></div>
 		<div class="row">
@@ -37,7 +37,7 @@
 			<div class="offset-md-1 col-md-11 reviewContent_div">
 				<div class="row review_div">
 					<div class="img_div col-3 col-xs-3">
-						<img class="reviewImg" src="../Image/reviewphoto.PNG">
+						<img class="reviewImg" src="/Image/reviewphoto.PNG">
 					</div>
 					<div class="col-8 col-md-8 card-body">
 						<dl class="review_dl">
@@ -46,7 +46,7 @@
 							<dd class="reactContent">
 								<span class="heart_icon">♡</span>
 								<em class="like_count">43</em>
-								<img class="commentImage" src="../Image/comment.png">
+								<img class="commentImage" src="/Image/comment.png">
 								<em class="comment_count">9</em>
 							</dd>
 						</dl>
@@ -54,7 +54,7 @@
 				</div>
 				<div class="row review_div">
 					<div class="img_div col-3 col-xs-3">
-						<img class="reviewImg" src="../Image/reviewphoto.PNG">
+						<img class="reviewImg" src="/Image/reviewphoto.PNG">
 					</div>
 					<div class="col-8 col-md-8 card-body">
 						<dl class="review_dl">
@@ -63,7 +63,7 @@
 							<dd class="reactContent">
 								<span class="heart_icon">♡</span>
 								<em class="like_count">43</em>
-								<img class="commentImage" src="../Image/comment.png">
+								<img class="commentImage" src="/Image/comment.png">
 								<em class="comment_count">9</em>
 							</dd>
 						</dl>
@@ -71,7 +71,7 @@
 				</div>
 				<div class="row review_div">
 					<div class="img_div col-3 col-xs-3">
-						<img class="reviewImg" src="../Image/reviewphoto.PNG">
+						<img class="reviewImg" src="/Image/reviewphoto.PNG">
 					</div>
 					<div class="col-8 col-md-8 card-body">
 						<dl class="review_dl">
@@ -80,7 +80,7 @@
 							<dd class="reactContent">
 								<span class="heart_icon">♡</span>
 								<em class="like_count">43</em>
-								<img class="commentImage" src="../Image/comment.png">
+								<img class="commentImage" src="/Image/comment.png">
 								<em class="comment_count">9</em>
 							</dd>
 						</dl>
@@ -88,7 +88,7 @@
 				</div>
 				<div class="row review_div">
 					<div class="img_div col-3 col-xs-3">
-						<img class="reviewImg" src="../Image/reviewphoto.PNG">
+						<img class="reviewImg" src="/Image/reviewphoto.PNG">
 					</div>
 					<div class="col-8 col-md-8 card-body">
 						<dl class="review_dl">
@@ -97,7 +97,7 @@
 							<dd class="reactContent">
 								<span class="heart_icon">♡</span>
 								<em class="like_count">43</em>
-								<img class="commentImage" src="../Image/comment.png">
+								<img class="commentImage" src="/Image/comment.png">
 								<em class="comment_count">9</em>
 							</dd>
 						</dl>
