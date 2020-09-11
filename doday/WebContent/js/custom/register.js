@@ -10,11 +10,13 @@ $(document).ready(function() {
 		passwordCheck = checkPassword();
 	});
 
-	$("#registerBtn").click(function(){
+	$("#registerBtn").on("click",function(){
 		registerCheck = register(passwordCheck);
 		if(registerCheck){
-			alert("회원가입이 완료되었습니다.")
-			location.href = "/index.jsp"
+			console.log(registerCheck);
+			$("#registerForm").submit();
+			/*alert("회원가입이 완료되었습니다.")
+			location.replace("/doday/")*/
 		}
 			
 	})
@@ -53,13 +55,15 @@ function register(passwordCheck){
 	var authSuccess = false;
 	var idSuccess = false;
 	var passwordSuccess = false;
-	var nameSuccess = false;
-	var allSuccess = false;
+	
+	var form = $("#registerForm").serializeArray();
 
-	var auth = $("input[name=degree]:checked").val()
+	var auth = $("input[name=auth]:checked").val()
 	var id = $("#infoId").val();
 	var password = $("#infoPassword").val();
 	var name = $("#infoName").val();
+	var phone = $("#infoPhoneNumber").val();
+	var age = $("#infoAge").val();
 
 	if(auth != null){
 		authSuccess = true;
@@ -76,6 +80,13 @@ function register(passwordCheck){
 	if(name.trim() != ""){
 		nameSuccess = true;
 	}
+	if(form[4].value.trim() == ""){
+		$("#infoPhoneNumber").val('0');
+	}
+	if(form[5].value.trim() == ""){
+		$("#infoAge").val('0');
+	}
+	
 
 	if(passwordCheck == 1){
 		alert("비밀번호가 서로 일치하지 않습니다.")
@@ -97,10 +108,10 @@ function register(passwordCheck){
 		else if(nameSuccess == true && idSuccess == true && passwordSuccess == true){
 			console.log("aaa");
 			allSuccess = true;
-			sessionStorage.setItem("userId", id);
+			/*sessionStorage.setItem("userId", id);
 			sessionStorage.setItem("userPassword", password);
 			sessionStorage.setItem("username", name);
-			sessionStorage.setItem("degree", $("input[name=degree]:checked").val());
+			sessionStorage.setItem("degree", $("input[name=degree]:checked").val());*/
 			// 0:일반 1:기업인 2:관리자
 		}
 

@@ -10,7 +10,7 @@ div.mainBody{
 	height:calc(92vh);
 	padding-top: 2rem;
     padding-bottom: calc(10rem - 4.5rem);
-	background: url(/Image/mainImg.png),linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 220, 220, 0.8) 100%);
+	background: url(/doday/Image/mainImg.png),linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(255, 220, 220, 0.8) 100%);
 	background-size: cover;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -58,6 +58,6 @@ div.mainBody{
 	border: 0;
 	width: 40px;
     height: 40px;
-    background: url(/Image/search.png) no-repeat;
+    background: url(/doday/Image/search.png) no-repeat;
     background-size: cover;
 }

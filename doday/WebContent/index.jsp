@@ -12,15 +12,16 @@
 	<!-- 스타일 -->
 	<!-- 부트스트랩 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/bootstrapCustom.css">
-	<link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" href="/css/custom/home.css">
+	<link rel="stylesheet" href="/doday/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/doday/css/bootstrapCustom.css">
+	<link rel="stylesheet" href="/doday/css/main.css">
+	<link rel="stylesheet" href="/doday/css/custom/home.css">
 	<title>오늘뭐해</title>
 	
 </head>
 <body>
-	<jsp:include page="include/topBar.jsp" flush="true"/>
+	
+	<jsp:include page="/include/topBar.jsp" flush="true"/>
 	<div class="mainBody">
 		<div class="container">
 			<div class="row">

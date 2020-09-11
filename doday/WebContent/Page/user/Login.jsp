@@ -7,15 +7,15 @@
 	<!-- 스크립트 -->
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"> </script>
-	<script src="/js/custom/login.js"></script>
+	<script src="/doday/js/custom/login.js"></script>
 	
 	<!-- 부트스트랩 -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	
 	<!-- 스타일 -->
-	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
-	<link href="/css/user/style_login.css" rel="stylesheet" type="text/css">
+	<link href="/doday/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/doday/css/bootstrapCustom.css" rel="stylesheet" type="text/css">
+	<link href="/doday/css/user/style_login.css" rel="stylesheet" type="text/css">
 	
 	<title>오늘뭐해</title>
 

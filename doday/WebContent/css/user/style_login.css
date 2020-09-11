@@ -65,6 +65,11 @@
 	
 }
 
+#passwordCheckItem{
+	margin-right: -24px!important;
+}
+
+
 .constraint{
 	margin-left: 20px;
     margin-top: 6px;
@@ -72,11 +77,13 @@
 
 .fail{
 	display:none;
+	color:red;
 	
 }
 
 .success{
 	display:none;
+	color:green;
 }
 
 .registerBtn{

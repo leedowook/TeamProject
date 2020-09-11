@@ -27,7 +27,7 @@ function loginBtn(){
 
 function moveRegister(){
 	$("#registerBtn").on("click",function(){
-		location.href = "/Page/user/Register.jsp";
+		location.href = "/doday/Page/user/Register.jsp";
 		
 		$("#passwordCheck").blur(function(){
 			passwordCheck = checkPassword();
@@ -40,7 +40,7 @@ function moveRegister(){
 			registerCheck = register(passwordCheck);
 			if(registerCheck){
 				alert("회원가입이 완료되었습니다.")
-				location.href = "/index.jsp"
+				location.href = "/doday/"
 			}
 			
 		});

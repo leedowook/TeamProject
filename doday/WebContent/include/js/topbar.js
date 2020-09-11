@@ -5,7 +5,7 @@ $(document).ready(function() {
 //
 function titleOnclick(){
 	$("a#login.login").on("click",function(){
-		location.href="/Page/user/Login.jsp"
+		location.href="/doday/Page/user/Login.jsp"
 	});
 }
 
@@ -48,11 +48,11 @@ function unloginMenu(){
 //로그아웃햇을때
 function logout(){
 	sessionStorage.removeItem("id")
-	location.href = "/index.jsp";
+	location.href = "/doday/index.jsp";
 	unloginMenu();
 	titleOnclick();
 }
 
 function profile(){
-	location.href = "/Page/user/Profile.jsp";
+	location.href = "/doday/Page/user/Profile.jsp";
 }
